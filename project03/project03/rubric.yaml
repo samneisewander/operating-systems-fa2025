@@ -1,0 +1,60 @@
+Source Code:
+  A. General:
+    1. Builds and cleans without warnings or errors:
+      Score: 0.25
+    2. Uses system calls appropriately:
+      Score: 0.25
+    4. Is consistent, readable, and organized:
+      Score: 0.25
+    5. Has regular commits and submitted on-time:
+      Score: 0.25
+  B. Block:
+    1. Implements block_release properly:
+      Score: 0.25
+    2. Implements block_detach properly:
+      Score: 0.25
+    3. Implements block_merge properly:
+      Score: 1.0
+    4. Implements block_split properly:
+      Score: 1.0
+  C. Counters:
+    1. Implements internal_fragmentation properly:
+      Score: 0.25
+    2. Implements external_fragmentation properly:
+      Score: 0.25
+  D. Free List:
+    1. Implements free_list_search_ff properly:
+      Score: 0.5
+    2. Implements free_list_search_bf properly:
+      Score: 0.5
+    3. Implements free_list_search_wf properly:
+      Score: 0.5
+    4. Implements free_list_insert properly:
+      Score: 1.0
+    5. Implements free_list_length properly:
+      Score: 0.5
+  D. POSIX:
+    1. Implements malloc properly:
+      Score: 1.0
+    2. Implements free properly:
+      Score: 0.5
+    3. Implements calloc properly:
+      Score: 0.5
+    4. Implements realloc properly:
+      Score: 1.0
+
+Reflection:
+  A. Group Video Demonstration:
+    1. Exhibits reasonable audio and video quality:
+      Score: 0.25
+    2. Demonstrates passing automated tests:
+      Score: 0.75
+    3. Compares and contrasts heap management strategies:
+      Score: 0.5
+    4. Discusses errata, quirks, or unresolved issues:
+      Score: 0.25
+    5. Discusses what the group learned from the project:
+      Score: 0.25
+
+Total: 10.0 + 2.0 = 12.0
+

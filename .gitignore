@@ -1,0 +1,10 @@
+*~
+*.a
+*.exe
+*.o
+*.pyc
+*.so
+*.swp
+reading*/*.bin
+reading*/program
+reading*/test_program.sh

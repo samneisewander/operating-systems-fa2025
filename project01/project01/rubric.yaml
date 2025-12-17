@@ -1,0 +1,44 @@
+Source Code:
+  A. General:
+    1. Builds and cleans without warnings or errors:
+      Score: 0.5
+    3. Manages resources such as memory and files appropriately:
+      Score: 0.5
+    4. Is consistent, readable, and organized:
+      Score: 0.5
+    5. Has regular commits and submitted on-time:
+      Score: 0.5
+  B. Structures / Functions:
+    1. Implements Process structure properly:
+      Score: 0.75
+    2. Implements Queue structure properly:
+      Score: 1.0
+    3. Implements Timestamp function properly:
+      Score: 0.25
+  C. Scheduler:
+    1. Implements input handling properly:
+      Score: 1.0
+    2. Implements timer handling properly:
+      Score: 1.0
+    3. Implements child handling properly:
+      Score: 1.0
+    5. Implements FIFO scheduler behavior properly:
+      Score: 1.0
+    6. Implements RDRN scheduler behavior properly:
+      Score: 2.0
+
+Reflection:
+  A. Group Video Demonstration:
+    1. Exhibits reasonable audio and video quality:
+      Score: 0.25
+    2. Demonstrates passing automated tests:
+      Score: 0.75
+    3. Demonstrates working with manual input:
+      Score: 0.5
+    4. Discusses errata, quirks, or unresolved issues:
+      Score: 0.25
+    5. Discusses what the group learned from the project:
+      Score: 0.25
+
+Total: 10.0 + 2.0 = 12.0
+

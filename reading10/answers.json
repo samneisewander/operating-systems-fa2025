@@ -1,0 +1,50 @@
+{
+  "q01": [
+    "memory",
+    "IO",
+    "peripheral",
+    "CPU",
+    "memory",
+    "firmware"
+  ],
+  "q02": [
+    "pio_poll",
+    "interrupts",
+    "dma",
+    "drivers"
+  ],
+  "q03": [
+    "sectors",
+    "512",
+    "platter",
+    "spindle",
+    "RPM",
+    "tracks",
+    "disk arm",
+    "disk head"
+  ],
+  "q04": [
+    "delay",
+    "seek",
+    "settling",
+    "back"
+  ],
+  "q05": [
+    "elevator",
+    "ssft",
+    "sptf"
+  ],
+  "q06": [
+    "RAID",
+    "performance",
+    "capacity",
+    "reliability",
+    "mirroring",
+    "striping"
+  ],
+  "q07": [
+    "raid1",
+    "raid0",
+    "raid5"
+  ]
+}

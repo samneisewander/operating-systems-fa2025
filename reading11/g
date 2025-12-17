@@ -1,0 +1,84 @@
+{
+  "q01": [
+    "data structures",
+    "4K",
+    "blocks",
+    "data region",
+    "inode table",
+    "inode",
+    "allocation",
+    "bitmap",
+    "superblock"
+  ],
+  "q02": [
+    "size",
+    "indirect",
+    "ext2",
+    "ext4",
+    "fat"
+  ],
+  "q03": [
+    "disk",
+    "cylinder groups",
+    "fragmentation",
+    "sub-blocks"
+  ],
+  "q04": [
+    "data",
+    "file"
+  ],
+  "q05": [
+    "segment",
+    "free",
+    "inode map",
+    "checkpoint region",
+    "garbage collection"
+  ],
+  "q06": [
+    "persist",
+    "power loss",
+    "crash",
+    "crash-consistency",
+    "inconsistent",
+    "fsck",
+    "before",
+    "journaling"
+  ],
+  "q07": [
+    "ibitmap_only",
+    "dbitmap_only",
+    "ibitmap_dblock",
+    "dbitmap_dblock"
+  ],
+  "q08": [
+    "ibitmap_only",
+    "bitmaps_only"
+  ],
+  "q09": [
+    "directories",
+    "inode_links",
+    "free_blocks",
+    "superblock",
+    "bad_blocks",
+    "inode_state",
+    "duplicates"
+  ],
+  "q10": [
+    "data",
+    "journal write",
+    "journal commit",
+    "checkpoint",
+    "free",
+    "replay",
+    "committed",
+    "metadata",
+    "data"
+  ],
+  "q11": [
+    "checksum",
+    "collisions",
+    "misdirected write",
+    "physical identifier",
+    "disk scrubbing"
+  ]
+}

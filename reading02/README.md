@@ -1,0 +1,2 @@
+# Reading 02
+Used Gemini to debug a buffer overflow bug and to explain the meanings and usage of several of the `openssl` library functions. I left notes (which I wrote, not AI) of the Gemini outputs I found useful / interesting.

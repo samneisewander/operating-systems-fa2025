@@ -1,0 +1,32 @@
+{
+    "q1": [
+        "virtualization",
+        "persistence",
+        "concurrency"
+    ],
+    "q2": [
+        "virtualization",
+        "processor",
+        "memory",
+        "disk"
+    ],
+    "q3": [
+        "system calls",
+        "trap",
+        "user",
+        "kernel"
+    ],
+    "q4": [
+        "multiprogramming",
+        "utilization",
+        "memory protection",
+        "concurrency"
+    ],
+    "q5": [
+        "bios",
+        "mbr",
+        "bootloader",
+        "kernel",
+        "init"
+    ]
+}

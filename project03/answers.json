@@ -1,0 +1,30 @@
+{
+  "q1": [
+    "seg_sharing",
+    "pag_sharing",
+    "pag_fixed",
+    "pag_internal",
+    "seg_external"
+  ],
+  "q2": [
+    "pagefault",
+    "oom_evict",
+    "replace_lru",
+    "clock_lru",
+    "clock_used"
+  ],
+  "q3": [
+    "2^14",
+    "2^8",
+    "8",
+    "6",
+    "2^8",
+    "2^10",
+    "2^4",
+    "2^4",
+    "4",
+    "4",
+    "2^6",
+    "1"
+  ]
+}

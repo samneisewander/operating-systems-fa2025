@@ -1,0 +1,48 @@
+{
+  "q01": [
+    "memory hierarchy",
+    "hard disk",
+    "memory",
+    "cache",
+    "registers",
+    "swap space"
+  ],
+  "q02": [
+    "physical",
+    "illegal",
+    "handler",
+    "overlap"
+  ],
+  "q03": [
+    "page out",
+    "page in",
+    "evict",
+    "page replacement",
+    "high watermark",
+    "low watermark",
+    "swap daemon"
+  ],
+  "q04": [
+    "fifo",
+    "random",
+    "lru",
+    "clock"
+  ],
+  "q05": [
+    "page selection",
+    "demand paging",
+    "prefetching",
+    "clustering"
+  ],
+  "q06": [
+    "thrashing",
+    "working set",
+    "out-of-memory killer"
+  ],
+  "q07": "invalid",
+  "q08": [
+    "demand zeroing",
+    "copy-on-write"
+  ],
+  "q09": "ram"
+}

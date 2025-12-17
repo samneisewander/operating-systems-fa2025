@@ -1,0 +1,26 @@
+{
+  "q1": [
+    "32",
+    "16",
+    "24",
+    "16"
+  ],
+  "q2": [
+    "bitmap",
+    "inode",
+    "bitmap_block",
+    "block_inode"
+  ],
+  "q3": [
+    "ck_integrity",
+    "jl_speed",
+    "ck_detect",
+    "jl_metadata"
+  ],
+  "q4": [
+    "16",
+    "4210688",
+    "4",
+    "6"
+  ]
+}

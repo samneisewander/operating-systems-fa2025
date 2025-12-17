@@ -1,0 +1,60 @@
+{
+  "q1": [
+    "parallelize",
+    "single-threaded",
+    "threads",
+    "process",
+    "overlap"
+  ],
+  "q2": [
+    "tcb",
+    "address",
+    "main"
+  ],
+  "q3": [
+    "pthread_create",
+    "pthread_join",
+    "lock",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "condition variable",
+    "pthread_cond_wait",
+    "pthread_cond_signal"
+  ],
+  "q4": [
+    "racecondition",
+    "critical",
+    "mutex"
+  ],
+  "q5": [
+    "lock",
+    "available",
+    "acquired",
+    "owner"
+  ],
+  "q6": [
+    "mutual exclusion",
+    "fairness",
+    "performance"
+  ],
+  "q7": [
+    "interrupts",
+    "testandset",
+    "compareandswap",
+    "loadlink",
+    "fetchandadd"
+  ],
+  "q8": [
+    "waiting",
+    "yielding",
+    "parking"
+  ],
+  "q9": [
+    "event-based",
+    "event loop",
+    "select",
+    "poll",
+    "asynchronous",
+    "locks"
+  ]
+}

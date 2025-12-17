@@ -1,0 +1,54 @@
+Source Code:
+  A. General:
+    1. Builds and cleans without warnings or errors:
+      Score: 0.25
+    2. Manages resources such as memory and files appropriately:
+      Score: 0.25
+    4. Is consistent, readable, and organized:
+      Score: 0.25
+    5. Has regular commits and submitted on-time:
+      Score: 0.25
+  B. Disk:
+    1. Open operation performs correctly:
+      Score: 0.5
+    2. Close operation performs correctly:
+      Score: 0.25
+    3. Read operation performs correctly:
+      Score: 0.5
+    4. Write operation performs correctly:
+      Score: 0.5
+  C. File System:
+    1. Debug operation performs correctly:
+      Score: 1.0
+    2. Format operation performs correctly:
+      Score: 0.5
+    3. Mount operation performs correctly:
+      Score: 0.75
+    4. Create operation performs correctly:
+      Score: 0.75
+    5. Remove operation performs correctly:
+      Score: 0.75
+    6. Stat operation performs correctly:
+      Score: 0.25
+    7. Cat operation performs correctly:
+      Score: 0.75
+    8. Copyout operation performs correctly:
+      Score: 1.0
+    9. Copyin operation performs correctly:
+      Score: 1.5
+
+Reflection:
+  A. Group Video Demonstration:
+    1. Exhibits reasonable audio and video quality:
+      Score: 0.25
+    2. Demonstrates library passing automated tests:
+      Score: 0.75
+    3. Explains what happens during open and read system calls:
+      Score: 0.5
+    4. Discusses errata, quirks, or unresolved issues:
+      Score: 0.25
+    5. Discusses what the group learned from the project:
+      Score: 0.25
+
+Total: 10.0 + 2.0 = 12.0
+

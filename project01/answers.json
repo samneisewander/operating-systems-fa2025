@@ -1,0 +1,59 @@
+{
+  "q1": [
+    "block",
+    "modes",
+    "trap",
+    "table"
+  ],
+  "q2": [
+    "interrupt",
+    "kill",
+    "syscall",
+    "cont"
+  ],
+  "q3": [
+    "running",
+    "ready",
+    "timeslice",
+    "context"
+  ],
+  "q4": [
+    "B",
+    "C",
+    "C",
+    "C",
+    "A",
+    "A",
+    "B",
+    "B",
+    "B",
+    "C"
+  ],
+  "q5": [
+    "A",
+    "C B",
+    "B",
+    "A",
+    "B",
+    "A",
+    "C",
+    "B",
+    "B"
+  ],
+  "q6": [
+    "A",
+    "B",
+    "C",
+    "A",
+    "A B",
+    "A B",
+    "B",
+    "B",
+    "A",
+    "B",
+    "C",
+    "A",
+    "B",
+    "B"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "q1": [
+        "thread safe",
+        "monitor",
+        "locks"
+    ],
+    "q2": [
+        "lock",
+        "flow"
+    ],
+    "q3": [
+        "condition variable",
+        "waiting",
+        "signaling"
+    ],
+    "q4": [
+        "releases",
+        "suspends",
+        "resumes",
+        "acquires"
+    ],
+    "q5": [
+        "change",
+        "signal"
+    ],
+    "q6": [
+        "loops",
+        "spurious wakeups",
+        "empty",
+        "fill",
+        "fill",
+        "empty"
+    ]
+}

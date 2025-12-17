@@ -1,0 +1,45 @@
+{
+    "q01": [
+        "semaphore",
+        "integer",
+        "sem_wait",
+        "sem_post"
+    ],
+    "q02": [
+        "lock_init",
+        "cond_call"
+    ],
+    "q03": [
+        "concurrency",
+        "starvation"
+    ],
+    "q04": "order",
+    "q05": [
+        "atomicity-violation",
+        "order-violation"
+    ],
+    "q06": [
+        "circular wait",
+        "no preemption",
+        "hold-and-wait",
+        "mutual exclusion"
+    ],
+    "q07": [
+        "ordering",
+        "lockfree"
+    ],
+    "q08": [
+        "scheduler",
+        "detects",
+        "recovery"
+    ],
+    "q09": [
+        "A E C G B",
+        "A H D B"
+    ],
+    "q10": [
+        "3",
+        "A",
+        "B"
+    ]
+}

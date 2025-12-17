@@ -1,0 +1,40 @@
+{
+  "q1": [
+    "scheduling",
+    "discipline",
+    "workload",
+    "metric",
+    "turnaround time",
+    "response time"
+  ],
+  "q2": "convoy",
+  "q3": "convoy",
+  "q4": [
+    "preemption",
+    "turnaround"
+  ],
+  "q5": [
+    "response time",
+    "round robin",
+    "time slice",
+    "amortize",
+    "context switching"
+  ],
+  "q6": [
+    "fair",
+    "turnaround",
+    "response"
+  ],
+  "q7": [
+    "queues",
+    "roundrobin",
+    "lowers",
+    "sjf",
+    "starvation"
+  ],
+  "q8": [
+    "tickets",
+    "random",
+    "implementation"
+  ]
+}

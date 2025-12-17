@@ -1,0 +1,46 @@
+{
+  "q1": [
+    "time sharing",
+    "CPU",
+    "mechanisms",
+    "context switch",
+    "policies"
+  ],
+  "q2": [
+    "address",
+    "registers",
+    "pid"
+  ],
+  "q3": [
+    "code",
+    "stack",
+    "io",
+    "main"
+  ],
+  "q4": [
+    "ready",
+    "blocked",
+    "running"
+  ],
+  "q5": [
+    "syscall",
+    "trap",
+    "registers",
+    "kernelmode",
+    "jump",
+    "handler",
+    "return"
+  ],
+  "q6": [
+    "cooperative",
+    "timer interrupt",
+    "interrupt handler",
+    "scheduler",
+    "context switch"
+  ],
+  "q7": [
+    "registers",
+    "pc",
+    "ksp"
+  ]
+}

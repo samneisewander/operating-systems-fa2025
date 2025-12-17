@@ -1,0 +1,62 @@
+{
+  "q01": [
+    "waste",
+    "space"
+  ],
+  "q02": [
+    "segmentation",
+    "segments",
+    "base",
+    "bounds",
+    "segmentation fault",
+    "negative",
+    "sharing",
+    "protection bits",
+    "context switch",
+    "free-list",
+    "external fragmentation"
+  ],
+  "q03": [
+    "16384",
+    "3FFF",
+    "Heap",
+    "37386"
+  ],
+  "q04": [
+    "paging",
+    "pages",
+    "page frame",
+    "page table"
+  ],
+  "q05": [
+    "2",
+    "5",
+    "4",
+    "84"
+  ],
+  "q06": [
+    "linear page table",
+    "page table entries",
+    "valid bit",
+    "protection bits",
+    "present bit",
+    "accessed bit"
+  ],
+  "q07": [
+    "page table base register",
+    "TLB",
+    "caches",
+    "TLB hit",
+    "TLB miss",
+    "spatial locality",
+    "temporal locality",
+    "flushed",
+    "ASID"
+  ],
+  "q08": [
+    "bigger",
+    "hybrid",
+    "multi",
+    "inverted"
+  ]
+}       

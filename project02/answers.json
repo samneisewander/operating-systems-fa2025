@@ -1,0 +1,23 @@
+{
+    "q1": [
+        "threads_resources",
+        "threads_shared",
+        "threads_parallel",
+        "events_overhead",
+        "events_sync"
+    ],
+    "q2": [
+        "monitor_mutex",
+        "mutex_race",
+        "mutex_cond",
+        "cond_wait",
+        "semaphore_racewait"
+    ],
+    "q3": [
+        "0",
+        "0",
+        "B C G",
+        "D A G"
+    ],
+    "q4": "A I E C D B K"
+}

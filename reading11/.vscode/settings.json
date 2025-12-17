@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.bison": "yacc",
+        "limits.h": "c",
+        "stdio.h": "c"
+    }
+}
