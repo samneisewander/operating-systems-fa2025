@@ -13,11 +13,11 @@
 #include "queue.h"
 #include "thread.h"
 
-#define MAX_THREADS 2         /* Number of threads in thread pool */
-#define QSIZE 4               /* Maximum size of Queue structure */
-#define SENTINEL (char *)NULL /* Sentinel to mark end of Queue */
+#define MAX_THREADS 2        /* Number of threads in thread pool */
+#define QSIZE 4              /* Maximum size of Queue structure */
+#define SENTINEL (char*)NULL /* Sentinel to mark end of Queue */
 
-bool sha1sum_file(const char *path, char *cksum) {
+bool sha1sum_file(const char* path, char* cksum) {
     bool status = true;
 
     // get file descriptor for path and handle failure
@@ -27,8 +27,8 @@ bool sha1sum_file(const char *path, char *cksum) {
     }
 
     // create a blank digest context
-    EVP_MD_CTX *ctx = EVP_MD_CTX_new();
-    const EVP_MD *md = EVP_sha1();  // i think this strategy is legacy, and EVP_MD_fetch should be used instead.
+    EVP_MD_CTX* ctx = EVP_MD_CTX_new();
+    const EVP_MD* md = EVP_sha1();  // i think this strategy is legacy, and EVP_MD_fetch should be used instead.
 
     if (!ctx) {
         status = false;
@@ -36,7 +36,7 @@ bool sha1sum_file(const char *path, char *cksum) {
     }
 
     // initialize SHA1 digest context and handle failure
-    int success = EVP_DigestInit_ex(ctx, (const EVP_MD *)md, NULL);
+    int success = EVP_DigestInit_ex(ctx, (const EVP_MD*)md, NULL);
     if (!success) {
         status = false;
         goto cleanup;
@@ -78,16 +78,16 @@ cleanup:
     return status;
 }
 
-void *sha1_consumer(void *arg) {
+void* sha1_consumer(void* arg) {
     if (!arg) {
         fprintf(stderr, "sha1sum_threads: Expecting Queue *, not NULL.\n");
-        return (void *)1;
+        return (void*)1;
     }
 
-    Queue *q = (Queue *)arg;
+    Queue* q = (Queue*)arg;
     size_t failures = 0;
     char cksum[SHA_DIGEST_LENGTH * 2 + 1];
-    char *path;
+    char* path;
 
     // something something waait for the job queue to have stuff in it, then
     // yoink a job off the queue and sha1sum it, repeat this until nothing on the job
@@ -96,24 +96,24 @@ void *sha1_consumer(void *arg) {
     while ((path = queue_pop(q))) {
         if (!sha1sum_file(path, cksum)) {
             fprintf(stderr, "sha1sum_process: Hash failed for file %s\n", path);
-            return (void *)1;
+            return (void*)1;
         }
 
         printf("%s  %s\n", cksum, path);
     }
 
-    return (void *)failures;
+    return (void*)failures;
 }
 
-int main(int argc, char *argv[]) {
-    Queue *q = queue_create(SENTINEL, QSIZE);
+int main(int argc, char* argv[]) {
+    Queue* q = queue_create(SENTINEL, QSIZE);
 
     Thread threads[MAX_THREADS];
     size_t failures = 0;
 
     // Initialize thread pool
     for (int i = 0; i < MAX_THREADS; i++) {
-        thread_create(&threads[i], NULL, sha1_consumer, (void *)q);
+        thread_create(&threads[i], NULL, sha1_consumer, (void*)q);
     }
 
     // Add jobs to the queue.
@@ -128,7 +128,7 @@ int main(int argc, char *argv[]) {
     // Wait for threads to finish all jobs, count failures.
     size_t thread_failures = 0;
     for (int i = 0; i < MAX_THREADS; i++) {
-        thread_join(threads[i], (void **)&thread_failures);
+        thread_join(threads[i], (void**)&thread_failures);
         failures += thread_failures;
     }
 
